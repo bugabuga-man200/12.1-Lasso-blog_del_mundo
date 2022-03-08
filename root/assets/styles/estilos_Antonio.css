@@ -1,10 +1,10 @@
 /* clases generales */
 body{
-    background-color: #000000 ;
-    color: #FFFFFF ;
+    background-color: #f1c0c0 ;
+    color: #ff8686 ;
 }
 article{
-    background-color: rgb(44, 43, 43);
+    background-color: rgb(198, 239, 252);
     padding: 1.5rem;
     border-bottom-style: solid;
     border-bottom-width: 1px;
@@ -47,7 +47,7 @@ nav>ul>li>a{
 .ilustracion {
     border-width: 4px;
     border-style: solid;
-    border-color: #FFFFFF;
+    border-color: #ffc7ff;
     display: inline-block;
 }
 
