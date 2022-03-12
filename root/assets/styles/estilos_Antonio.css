@@ -3,6 +3,41 @@ body{
     background-color: #f1c0c0 ;
     color: #ff8686 ;
 }
+
+/* grid */
+section {
+
+    /* despliégate como grid */
+    display: grid;
+    /* crea 12 columnas cada una de una fracción usando la función repeat */
+    grid-template-columns: repeat(12, 1fr);
+    /* deja que las filas (renglones) ocupen el alto que necesitan*/
+    grid-auto-rows: auto;
+    /* añade un espacio entre los elementos del grid de 3rem */
+    gap: 3rem;
+}
+section>header {
+    /* esta sección se extenderá 12 columnas. */
+    grid-column: span 12;
+}
+
+section>main {
+    /* esta sección se extenderá 8 columnas. */
+    grid-column: span 8;
+}
+
+section>aside {
+    /* esta sección se extenderá 4 columnas. */
+    grid-column: span 4;
+}
+
+section>footer {
+    /* esta sección se extenderá 12 columnas. */
+    grid-column: span 12;
+}
+
+/* termina grid */
+
 article{
     background-color: rgb(198, 239, 252);
     padding: 1.5rem;
