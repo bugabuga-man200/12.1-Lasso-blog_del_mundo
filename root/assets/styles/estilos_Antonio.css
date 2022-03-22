@@ -64,8 +64,9 @@ nav>ul>li{
     list-style: none;
 }
 
-nav>ul>li>a{
-    text-decoration: none;
+nav>ul>li>a :hover{
+    text-decoration: underline;
+    color: greenyellow; 
 }
 
 /* Fin Barra de navegación  */
